@@ -44,7 +44,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/portofolio-next/grid.svg",
-    spareImg: "/b4.svg",
+    spareImg: "/portofolio-next/b4.svg",
   },
 
   {
@@ -210,6 +210,6 @@ export const socialMedia = [
   {
     id: '4',
     img: "/portofolio-next/wha.svg",
-    link: "https://wa.link/evafmo"
+    link: "https://wa.link/zn12di"
   },
 ];

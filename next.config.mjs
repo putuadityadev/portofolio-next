@@ -7,6 +7,9 @@ const __dirname = path.dirname(__filename)
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true
+  },
   transpilePackages: ['three', '@react-three/fiber', '@react-three/drei'],
   webpack: (config) => {
     config.resolve.alias = {

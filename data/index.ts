@@ -75,7 +75,7 @@ export const projects = [
     title: "Nike Shoes Landing Page",
     des: "Recreate Nike official landing page with React.js and TailwindCSS for Learning purpose.",
     img: "/portofolio-next/nike-clone.png",
-    iconLists: ["/re.svg", "/tail.svg",],
+    iconLists: ["/portofolio-next/re.svg", "/portofolio-next/tail.svg",],
     link: "https://putuadityadev.github.io/nike-clone/",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "Amazon - Clone Ecommerce Website",
     des: "An ecommerce website inspire by Amazon with Full Javascript and Pure CSS Technologies",
     img: "/portofolio-next/amazon-clone.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/portofolio-next/next.svg", "/portofolio-next/tail.svg", "/portofolio-next/ts.svg", "/portofolio-next/stream.svg", "/portofolio-next/c.svg"],
     link: "https://putuadityadev.github.io/amazon-clone-app/",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "EpiCenter - Fullstack Ecommerce-Website",
     des: "A REAL Ecommerce website with auth, and payment integration. Build with Djanggo Python and Bootstrap.",
     img: "/portofolio-next/epicenter.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/portofolio-next/re.svg", "/portofolio-next/tail.svg", "/portofolio-next/ts.svg", "/portofolio-next/three.svg", "/portofolio-next/c.svg"],
     link: "https://github.com/putuadityadev/django-final",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/portofolio-next/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/portofolio-next/next.svg", "/portofolio-next/tail.svg", "/portofolio-next/ts.svg", "/portofolio-next/three.svg", "/portofolio-next/gsap.svg"],
     link: "https://putuadityadev.github.io/apple-website/",
   },
 ];

@@ -1,8 +1,16 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { Canvas, useFrame, useThree } from "@react-three/fiber";
+import { Canvas, useFrame, useThree, ReactThreeFiber } from "@react-three/fiber";
 import React, { useMemo, useRef } from "react";
 import * as THREE from "three";
+
+
+declare module '@react-three/fiber' {
+  interface ThreeElements {
+    mesh: ReactThreeFiber.Object3DNode<THREE.Mesh, typeof THREE.Mesh>
+    planeGeometry: ReactThreeFiber.Object3DNode<THREE.PlaneGeometry, typeof THREE.PlaneGeometry>
+  }
+}
 
 export const CanvasRevealEffect = ({
   animationSpeed = 0.4,

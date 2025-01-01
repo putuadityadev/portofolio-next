@@ -207,4 +207,9 @@ export const socialMedia = [
     img: "/portofolio-next/link.svg",
     link: "https://linkedin.com/in/putuadit"
   },
+  {
+    id: '4',
+    img: "/portofolio-next/wha.svg",
+    link: "https://wa.link/evafmo"
+  },
 ];

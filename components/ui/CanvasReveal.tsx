@@ -7,10 +7,11 @@ import * as THREE from "three";
 
 declare module '@react-three/fiber' {
   interface ThreeElements {
-    mesh: any
-    planeGeometry: any
+    mesh: ReactThreeFiber.MeshProps
+    planeGeometry: ReactThreeFiber.PlaneGeometryProps
   }
 }
+
 export const CanvasRevealEffect = ({
   animationSpeed = 0.4,
   opacities = [0.3, 0.3, 0.3, 0.5, 0.5, 0.5, 0.8, 0.8, 0.8, 1],

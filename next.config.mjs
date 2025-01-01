@@ -20,7 +20,9 @@ const nextConfig = {
       'react-reconciler': path.resolve(__dirname, 'node_modules/react-reconciler')
     }
     return config
-  }
+  },
+  basePath: process.env.GITHUB_PAGES ? '/portofolio-next' : '',
+  assetPrefix: process.env.GITHUB_PAGES ? '/portofolio-next/' : '',
 }
 
 export default nextConfig

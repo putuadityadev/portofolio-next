@@ -80,11 +80,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Amazon - Clone Ecommerce Website",
-    des: "An ecommerce website inspire by Amazon with Full Javascript and Pure CSS Technologies",
-    img: "/portofolio-next/amazon-clone.png",
-    iconLists: ["/portofolio-next/next.svg", "/portofolio-next/tail.svg", "/portofolio-next/ts.svg", "/portofolio-next/stream.svg", "/portofolio-next/c.svg"],
-    link: "https://putuadityadev.github.io/amazon-clone-app/",
+    title: "Hai Photobooth - Landing Page",
+    des: "A Landing Page for helping Hai Photobooth (Local Bussines) get more costumer.",
+    img: "/portofolio-next/hai-photobooth.png",
+    iconLists: ["/portofolio-next/re.svg", "/portofolio-next/tail.svg",],
+    link: "https://hai-photobooth.vercel.app/",
   },
   {
     id: 3,

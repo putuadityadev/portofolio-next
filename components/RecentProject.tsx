@@ -6,12 +6,12 @@ import { FaLocationArrow } from 'react-icons/fa6'
 import Link from 'next/link'
 const RecentProject = () => {
   return (
-    <section className="py-20 max-w-[1280px]" id="projects">
-      <h1 className="heading">
+    <section className=" max-w-[1280px] h-fit mt-20 mb-10" id="projects">
+      <h1 className="heading mb-10">
         A small selection of {' '}
         <span className="text-purple">recent project</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-between p-4 gap-x-24 gap-y-7 mt-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto gap-8 lg:gap-y-24">
         {projects.map(({
           id,
           title,
@@ -20,10 +20,10 @@ const RecentProject = () => {
           iconLists,
           link
         }) => (
-            <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-96 w-[80vw] mx-16 2xl:mx-20">
+            <div key={id} className="h-[32rem] flex items-center justify-center max-w-[594px]">
               <Link href={link}>
                 <PinContainer title={link} href={link}>
-                  <div className="relative flex items-center justify-center sm:w-[550px] w-[80vw] overflow-hidden sm:h-[60vh] 2xl:h-[40vh] h-[30vh] mb-10">
+                  <div className="relative flex items-center justify-center overflow-hidden w-80 h-80 md:w-[30rem] lg:w-[35rem]">
                     <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                       <img src="/portofolio-next/bg.png" alt="bg-img"/>
                     </div>

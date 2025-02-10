@@ -6,7 +6,7 @@ import { FaLocationArrow } from 'react-icons/fa6'
 import Link from 'next/link'
 const RecentProject = () => {
   return (
-    <section className=" max-w-[1280px] h-fit mt-20 mb-10" id="projects">
+    <section className=" max-w-[1280px] h-fit mt-20 mb-40" id="projects">
       <h1 className="heading mb-10">
         A small selection of {' '}
         <span className="text-purple">recent project</span>
@@ -30,14 +30,14 @@ const RecentProject = () => {
                     <img
                       src={img}
                       alt={title}
-                      className="z-10 absolute bottom-0"
+                      className="z-10 absolute bottom-0 object-cover"
                     />
                   </div>
-                  <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+                  <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 mt-5">
                     {title}
                   </h1>
 
-                  <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+                  <p className="lg:text-lg lg:font-normal font-light text-sm line-clamp-2">
                     {des}
                   </p>
 

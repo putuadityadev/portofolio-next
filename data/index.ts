@@ -111,52 +111,47 @@ export const testimonials = [
     title: "Instructor and mentor in the MSIB Python Learning Django program at Softuni"
   },
   {
-    quote: "I was impressed by your final project presentation. The website you built was complete with a payment feature and showed good attention to detail. You have demonstrated strong skills in web development, and I believe you have great potential in this field.",
-    name: "Mr. Nugraha",
-    title: "Instructor and mentor in the MSIB Python Learning Django program at Softuni"
+    quote: "Working with Adit on our photobooth business website was a great experience. He understood our vision perfectly and delivered a beautiful, user-friendly website that helped increase our customer engagement. His attention to detail and responsive communication made the whole process smooth.",
+    name: "Arisiki",
+    title: "Owner of Hai Photobooth"
   },
   {
-    quote: "I was impressed by your final project presentation. The website you built was complete with a payment feature and showed good attention to detail. You have demonstrated strong skills in web development, and I believe you have great potential in this field.",
-    name: "Mr. Nugraha",
-    title: "Instructor and mentor in the MSIB Python Learning Django program at Softuni"
-  },
-  {
-    quote: "I was impressed by your final project presentation. The website you built was complete with a payment feature and showed good attention to detail. You have demonstrated strong skills in web development, and I believe you have great potential in this field.",
-    name: "Mr. Nugraha",
-    title: "Instructor and mentor in the MSIB Python Learning Django program at Softuni"
-  },
+    quote: "Adit helped me with my college web development project. He not only delivered excellent work but also took the time to explain the code and concepts, which helped me understand web development better. His work was clean, well-documented, and exactly what I needed.",
+    name: "Nathanael",
+    title: "Computer Science Student at ITB STIKOM Bali"
+  }
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/portofolio-next/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "figma",
+    img: "/portofolio-next/figma.svg",
+    nameImg: "/portofolio-next/figmaText.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/portofolio-next/app.svg",
-    nameImg: "/appName.svg",
+    name: "miro",
+    img: "/portofolio-next/miro.svg",
+    nameImg: "/portofolio-next/miroText.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
     img: "/portofolio-next/host.svg",
-    nameImg: "/hostName.svg",
+    nameImg: "/portofolio-next/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/portofolio-next/s.svg",
-    nameImg: "/streamName.svg",
+    name: "vscode",
+    img: "/portofolio-next/vscode.svg",
+    nameImg: "/portofolio-next/vscodeText.svg",
   },
   {
     id: 5,
     name: "docker.",
     img: "/portofolio-next/dock.svg",
-    nameImg: "/dockerName.svg",
+    nameImg: "/portofolio-next/dockerName.svg",
   },
 ];
 
